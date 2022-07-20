@@ -2,21 +2,24 @@
 {
     public class Book
     {
-        public string BookAuthor { get; set; } = string.Empty;
-        public string BookTitle { get; set; } = string.Empty;
+       // string? setbookTitle;
+        public string? BookTitle { get; set; } 
 
         public double BookTaxRate { get; set; } = .10;
         public double BookPrice { get; set; } = 0;
 
 
         public Book(){ } //default constructor
-        public Book(string bookAuthor, string bookTitle, double bookTaxRate, double bookPrice) //paramerized constructor
+        public Book(string bookTitle,  double bookPrice) //paramerized constructor
         {
-            BookAuthor = bookAuthor;
             BookTitle = bookTitle;
-            BookTaxRate = bookTaxRate;
             BookPrice = bookPrice;
         }
 
+        public double GetTax(TaxRate taxRate)
+        {
+            double TotalTaxRate = BookPrice * taxRate.BookTaxRate;
+            return TotalTaxRate;
+        }
     }
 }

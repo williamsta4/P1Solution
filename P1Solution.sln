@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookClassLibrary", "BookCla
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{5373451D-373B-4159-8A97-FB0C51966A05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookTestProject", "BookTestProject\BookTestProject.csproj", "{0BA336E4-7B31-4627-87C2-E571162F2C63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5373451D-373B-4159-8A97-FB0C51966A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5373451D-373B-4159-8A97-FB0C51966A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5373451D-373B-4159-8A97-FB0C51966A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA336E4-7B31-4627-87C2-E571162F2C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA336E4-7B31-4627-87C2-E571162F2C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA336E4-7B31-4627-87C2-E571162F2C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA336E4-7B31-4627-87C2-E571162F2C63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
